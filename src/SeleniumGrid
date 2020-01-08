@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test name="FirefoxTest">
+    <parameter name="portNo" value="5555"></parameter>
+    <classes>
+      <class name="demoCode.SelniumGrid"/>
+    </classes>
+  </test>
+  <test name="ChromeTest">
+    <parameter name="portNo" value="5556"></parameter>
+    <classes>
+      <class name="demoCode.SelniumGrid"/>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
