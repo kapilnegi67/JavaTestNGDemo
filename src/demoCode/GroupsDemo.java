@@ -1,6 +1,5 @@
 package demoCode;
 
-import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
 
